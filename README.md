@@ -1,33 +1,34 @@
-# AzureVision: Background Subtraction 🎥🧠
+# 🎯 AzureVision: Background Subtraction using HSV & OpenCV
 
-This project demonstrates **background subtraction** using OpenCV to isolate a person from a static background, simulating effects commonly used in virtual conferencing and AI vision systems.
+This project uses real-time background subtraction to detect and highlight humans in a video stream. It captures a background frame, compares live webcam input using HSV color space, and subtracts the background dynamically.
 
-## 🔧 How It Works
-- First, capture the background without any person using `save_background.py`.
-- Then, run `background_subtraction.py` and stand in the frame.
-- The code subtracts background and shows you only!
+🟦 Built as part of the **Microsoft Azure AI Fundamentals (AI-900)** certification journey.
 
-## 📂 Files
-- `save_background.py` – Saves background frame.
-- `background_subtraction.py` – Runs live background subtraction.
-- `background.jpg` – Captured background image.
+---
 
-## 🧠 Built With
+## 📷 Features
+
+- 🟢 Captures static background
+- 👤 Detects foreground objects (like humans)
+- 🎨 HSV-based segmentation for better accuracy
+- 🖥️ Real-time video processing using webcam
+- ✅ Python + OpenCV implementation
+
+---
+
+## 🛠️ Tech Stack
+
 - Python
 - OpenCV
+- HSV Color Space
 - NumPy
+- Microsoft Azure AI (Cert: AI-900)
 
-## ✅ How to Run
-1. Run: `python save_background.py`
-2. After 5 seconds, stand away. Background is saved.
-3. Run: `python background_subtraction.py`
-4. Stand in frame and watch background get removed!
+---
 
-## 📸 Sample Output
-*(Insert sample image here after uploading)*
+## 🚀 How to Run
 
-## 🏷️ Tags
-`Computer Vision` `OpenCV` `Azure AI` `Background Removal`
-
-## 🧾 License
-MIT License
+```bash
+git clone https://github.com/YASHUSPY/azurevision-background-subtraction.git
+cd azurevision-background-subtraction
+python background_subtraction.py
