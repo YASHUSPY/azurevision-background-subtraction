@@ -26,6 +26,16 @@ This project uses real-time background subtraction to detect and highlight human
 
 ---
 
+## Output Examples
+
+### 🟢 Empty Background
+![Empty Background](https://github.com/YASHUSPY/azurevision-background-subtraction/blob/main/frame_1.jpg?raw=true)
+
+### 🧍‍♂️ Person Detected
+![Person Detected](https://github.com/YASHUSPY/azurevision-background-subtraction/blob/main/frame_2.jpg?raw=true)
+
+---
+
 ## 🚀 How to Run
 
 ```bash
